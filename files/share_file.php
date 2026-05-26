@@ -1,0 +1,3 @@
+require_once '../includes/logger.php';
+// ... after sharing logic ...
+logActivity($conn, $_SESSION['user_id'], "File Shared", "Shared file with User ID: " . $recipient_id);

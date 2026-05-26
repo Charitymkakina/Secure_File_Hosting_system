@@ -1,0 +1,3 @@
+require_once '../includes/logger.php';
+// ... after successful deletion logic ...
+logActivity($conn, $_SESSION['user_id'], "File Deleted", "User deleted file ID: " . $file_id);

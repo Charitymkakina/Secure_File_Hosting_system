@@ -96,20 +96,17 @@ Cloudstack/
 
 ---
 
-## ⚙️ Local Deployment Guide
+## Local Deployment Guide
 
 Follow these steps to run CloudStack locally:
 
 ### 1. Prerequisites
 Ensure you have a local web server environment installed, such as:
-*   **XAMPP** (recommended)
-*   **WAMP**
-*   **MAMP**
+*   **XAMPP**
 
 ### 2. Project Setup
 1.  Copy the `Cloudstack/` folder and paste it into your local server's document root:
     *   **XAMPP**: `C:\xampp\htdocs\Cloudstack`
-    *   **WAMP**: `C:\wamp64\www\Cloudstack`
 2.  Ensure that the server has write permissions for the `uploads/` directory so it can store uploaded files.
 
 ### 3. Database Initialization

@@ -4,7 +4,7 @@ CloudStack is a premium, relational **PHP and MySQL** web application designed t
 
 ---
 
-## 🌟 Core Features
+## Core Features
 
 ### 1. Secure Authentication & Security
 *   **User Registration & Unified Forms**: Integrated sign-up system with matching-passwords check and database conflicts checking.
@@ -58,7 +58,7 @@ erDiagram
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 ```bash
 Cloudstack/
@@ -132,8 +132,3 @@ $db_name = 'cfhms_db';
 Open your browser and go to:
 *   **Login**: `http://localhost/Cloudstack/auth/login.php`
 *   **Register**: `http://localhost/Cloudstack/auth/register.php`
-
-> [!TIP]
-> **Admin Account Setup**
-> During registration on `register.php`, accounts are assigned the role `user` by default. 
-> To test the **Admin Control Panel**, simply change the `role` column in the `users` table of `cfhms_db` to `admin` for your account using phpMyAdmin!
